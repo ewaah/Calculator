@@ -8,4 +8,4 @@
 
 # V1.1: Features
 #       adding , devision, multiply, substract, square root
-#       (the bug has been fixed and now works properly)
+#       (the break bug has been fixed and now works properly)
