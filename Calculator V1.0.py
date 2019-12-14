@@ -39,17 +39,20 @@ while True:# while loop to make it restart as long as the condition is met.
                     if num > 0:
                         goodinput = True
                         print ("square root of", num, "=", math.sqrt(num))
-                        choice = input("****  +    1  ****\n****  -    2  ****\n****  *    3  ****\n****  /    4  ****\n***squareroot? 5**\n****  quit 6  **** \nchoose what to do: ")
-                        # i copied the choice line so the loop would restart and the user can choose again.
+                        choice = input("****  +    1  ****\n****  -    2  ****\n****  *    3  ****\n****  /    4  ****\n***squareroot? 5**\n****  quit 6  **** \nchoose what to do: ")# i copied the choice line so the loop would restart and the user can choose again.
+                        if choice == '6':
+                            print ("Thanks for trying!!!!!")
+                            break
                     else:
                         print("that's not a positive number. Try again: ")
                 except ValueError:
                     print("that's not an integer. Try again: ")
         else:
             print ("square root of", num, "=", math.sqrt(num))# math.sqrt function being called and used.
-            choice = input("****  +    1  ****\n****  -    2  ****\n****  *    3  ****\n****  /    4  ****\n***squareroot? 5**\n****  quit 6  **** \nchoose what to do: ")
-            # i copied the choice line so the loop would restart and the user can choose again.
-    
+            choice = input("****  +    1  ****\n****  -    2  ****\n****  *    3  ****\n****  /    4  ****\n***squareroot? 5**\n****  quit 6  **** \nchoose what to do: ")# i copied the choice line so the loop would restart and the user can choose again.
+            if choice == '6':
+                print ("Thanks for trying!!!!!")
+                break
     num1 = input_number("Enter first number: ")
     num2 = input_number("Enter second number: ")#input_number is a fucntion to make the program crash safe. if the user entered a letter it gives a message and asks for the number again.
     # the user can input a second number here. integers aswell as floats.
