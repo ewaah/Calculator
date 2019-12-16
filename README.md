@@ -22,7 +22,7 @@
 
 # V1.3: Features
 #       adding , devision, multiply, substract, square root
-#       (I rewrote alot of code to make it faster and cleaner. I also solved alot of bugs that made the program crash before. like dividing #        by zero, using a negative number for squarroot. Or entering a higher number then the menu offered, sometimes the menu would not    #        reappear or an infinte loop triggered itself.)
+#       (I rewrote alot of code to make it faster and cleaner. I also solved alot of bugs that made the program crash before. like dividing by zero, using a negative number for squarroot. Or entering a higher number then the menu offered, sometimes the menu would not reappear or an infinte loop triggered itself.)
 
 # V1.4: Features
 #       adding , devision, multiply, substract, square root, show pi
